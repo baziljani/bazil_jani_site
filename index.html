@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bazil Jani | Digital Solutions</title>
+<title>Sironex | Digital Solutions</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
@@ -21,8 +21,8 @@ html{
 }
 
 body{
-  background:linear-gradient(135deg, #11192f 0%, #1d3557 50%, #0d1929 100%);
-  color:white;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+  color: #0f172a;
   overflow-x:hidden;
 }
 
@@ -34,7 +34,7 @@ h2{
   font-size:42px;
   margin-bottom:50px;
   text-align:center;
-  background:linear-gradient(135deg, #38bdf8, #0ea5e9);
+  background:linear-gradient(135deg, #0369a1, #0284c7);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   background-clip:text;
@@ -42,30 +42,30 @@ h2{
 }
 
 p{
-  color:#cbd5e1;
+  color:#374151;
   line-height:1.8;
 }
 
 /* NAVBAR */
 nav{
-  position:fixed;
+  position:sticky;
   width:100%;
   top:0;
-  background:rgba(10, 14, 39, 0.98);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter:blur(15px);
   padding:15px 5%;
   display:flex;
   justify-content:space-between;
   align-items:center;
   z-index:1000;
-  border-bottom:1px solid rgba(56, 189, 248, 0.15);
-  box-shadow:0 4px 30px rgba(0, 0, 0, 0.3);
+  border-bottom:1px solid rgba(56, 189, 248, 0.2);
+  box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 nav h1{
   font-size:24px;
   font-weight:700;
-  color:#38bdf8;
+  color:#0369a1;
   display:flex;
   align-items:center;
   gap:10px;
@@ -76,13 +76,6 @@ nav h1{
   height:45px;
   border-radius:50%;
   object-fit:cover;
-  background:linear-gradient(135deg, #38bdf8, #0ea5e9);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-weight:700;
-  color:white;
-  font-size:18px;
   border:2px solid rgba(56, 189, 248, 0.3);
   flex-shrink:0;
 }
@@ -94,7 +87,7 @@ nav ul{
 }
 
 nav ul li a{
-  color:white;
+  color:#0f172a;
   text-decoration:none;
   font-size:14px;
   transition:.3s;
@@ -102,7 +95,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color:#38bdf8;
+  color:#0369a1;
 }
 
 nav ul li a::after{
@@ -128,7 +121,7 @@ nav ul li a:hover::after{
   justify-content:center;
   align-items:center;
   text-align:center;
-  background:linear-gradient(135deg, #0a0e27 0%, #1a1a3f 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 50%, #7dd3fc 100%);
   position:relative;
   overflow:hidden;
   margin-top:60px;
@@ -229,11 +222,11 @@ nav ul li a:hover::after{
 .hero h1{
   font-size:75px;
   margin-bottom:25px;
-  color:white;
+  color:#0f172a;
   font-weight:700;
   line-height:1.1;
   letter-spacing:-1px;
-  background:linear-gradient(135deg, #ffffff, #cbd5e1);
+  background:linear-gradient(135deg, #0f172a, #374151);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   background-clip:text;
@@ -261,7 +254,7 @@ nav ul li a:hover::after{
 .hero p{
   font-size:24px;
   margin-bottom:50px;
-  color:#cbd5e1;
+  color:#374151;
   font-weight:300;
   animation:slideInUp 1s ease-out 0.2s both;
 }
@@ -305,7 +298,14 @@ nav ul li a:hover::after{
 
 /* ABOUT */
 #about{
-  background:linear-gradient(to bottom, #0a0e27, #1a1a3f);
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 50%, #7dd3fc 100%);
+}
+
+#about h2{
+  background: linear-gradient(135deg, #021824, #0284c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 #about p{
@@ -313,11 +313,19 @@ nav ul li a:hover::after{
   max-width:900px;
   margin:auto;
   text-align:center;
+  color: #5280ca;
 }
 
 /* SERVICES */
 #services{
-  background:#0a0e27;
+  background: #ffffff;
+}
+
+#services h2{
+  background: linear-gradient(135deg, #0369a1, #0284c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .services-grid{
@@ -329,15 +337,15 @@ nav ul li a:hover::after{
 }
 
 .card{
-  background:linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.5));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.9));
   padding:40px 30px;
   border-radius:15px;
   transition:.3s;
-  border:1px solid rgba(56, 189, 248, 0.1);
+  border:1px solid rgba(56, 189, 248, 0.2);
   text-align:center;
   font-size:16px;
   font-weight:600;
-  color:#cbd5e1;
+  color: #374151;
   min-height:150px;
   display:flex;
   align-items:center;
@@ -346,14 +354,21 @@ nav ul li a:hover::after{
 
 .card:hover{
   transform:translateY(-10px);
-  background:linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(14, 165, 233, 0.1));
-  border-color:rgba(56, 189, 248, 0.3);
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(14, 165, 233, 0.05));
+  border-color: rgba(56, 189, 248, 0.4);
   box-shadow:0 20px 50px rgba(56, 189, 248, 0.2);
 }
 
 /* PROJECTS */
 #portfolio{
-  background:linear-gradient(to bottom, #1a1a3f, #0a0e27);
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 50%, #cbd5e1 100%);
+}
+
+#portfolio h2{
+  background: linear-gradient(135deg, #0369a1, #0284c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .projects-grid{
@@ -365,11 +380,11 @@ nav ul li a:hover::after{
 }
 
 .project{
-  background:linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.5));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.9));
   padding:0;
   border-radius:20px;
   overflow:hidden;
-  border:1px solid rgba(56, 189, 248, 0.1);
+  border:1px solid rgba(56, 189, 248, 0.2);
   transition:.3s;
 }
 
@@ -387,7 +402,7 @@ nav ul li a:hover::after{
 
 .project h3{
   margin-bottom:15px;
-  color:#38bdf8;
+  color: #0369a1;
   font-size:20px;
 }
 
@@ -395,10 +410,11 @@ nav ul li a:hover::after{
   margin-bottom:20px;
   font-size:14px;
   line-height:1.6;
+  color: #374151;
 }
 
 .project a{
-  color:#38bdf8;
+  color: #0369a1;
   text-decoration:none;
   font-size:14px;
   display:inline-flex;
@@ -410,19 +426,26 @@ nav ul li a:hover::after{
 
 .project a:hover{
   gap:10px;
-  color:#0ea5e9;
+  color: #0284c7;
 }
 
 .project:hover{
   transform:translateY(-15px);
-  border-color:rgba(56, 189, 248, 0.3);
+  border-color: rgba(56, 189, 248, 0.4);
   box-shadow:0 20px 50px rgba(56, 189, 248, 0.15);
 }
 
 /* REVIEWS */
 #reviews{
-  background:linear-gradient(to bottom, #0f172a, #1a2a4e);
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 50%, #93c5fd 100%);
   padding:150px 5%;
+}
+
+#reviews h2{
+  background: linear-gradient(135deg, #0369a1, #0284c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .review-slider{
@@ -442,7 +465,7 @@ nav ul li a:hover::after{
 .review{
   display:none;
   padding:100px 70px;
-  background:linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(14, 165, 233, 0.08));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.9));
   border-radius:20px;
   border:1px solid rgba(56, 189, 248, 0.2);
   animation:fadeInScale 0.5s;
@@ -467,7 +490,7 @@ nav ul li a:hover::after{
   font-size:19px;
   font-style:italic;
   margin-bottom:50px;
-  color:#cbd5e1;
+  color: #374151;
   line-height:1.9;
   max-width:800px;
 }
@@ -497,6 +520,8 @@ nav ul li a:hover::after{
 }
 
 .review-info h4{
+  color: #0369a1;
+}
   margin-bottom:10px;
   color:#38bdf8;
   font-size:18px;
@@ -872,22 +897,1129 @@ footer{
 }
 
 </style>
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+  scroll-behavior:smooth;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:radial-gradient(circle at top, #162245 0%, #090e1f 35%, #070b17 100%);
+  color:#e2e8f0;
+  overflow-x:hidden;
+}
+
+section{
+  padding:100px 5%;
+}
+
+h2{
+  font-size:42px;
+  margin-bottom:40px;
+  text-align:center;
+  color:#f8fafc;
+  font-weight:800;
+}
+
+p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+button{
+  font-family:'Poppins',sans-serif;
+}
+
+/* NAVBAR */
+nav{
+  position:fixed;
+  inset:0 0 auto 0;
+  background:rgba(7, 12, 24, 0.94);
+  backdrop-filter:blur(18px);
+  padding:18px 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+  border-bottom:1px solid rgba(56, 189, 248, 0.12);
+}
+
+.nav-brand{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.navbar-logo{
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#0ea5e9,#22d3ee);
+  color:#fff;
+  font-size:22px;
+  font-weight:800;
+  box-shadow:0 14px 40px rgba(14,165,233,0.24);
+}
+
+.nav-brand p{
+  color:#94a3b8;
+  font-size:12px;
+  margin-bottom:4px;
+}
+
+.nav-brand h1{
+  font-size:22px;
+  color:#f8fafc;
+}
+
+.nav-links{
+  display:flex;
+  gap:28px;
+  list-style:none;
+}
+
+.nav-links li a{
+  color:#cbd5e1;
+  font-size:14px;
+  transition:.25s;
+  position:relative;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active{
+  color:#38bdf8;
+}
+
+.nav-links li a::after{
+  content:'';
+  position:absolute;
+  bottom:-6px;
+  left:0;
+  width:0;
+  height:2px;
+  background:#38bdf8;
+  transition:.25s;
+}
+
+.nav-links li a:hover::after,
+.nav-links li a.active::after{
+  width:100%;
+}
+
+.menu-toggle{
+  display:none;
+  border:none;
+  background:transparent;
+  color:#e2e8f0;
+  font-size:26px;
+  cursor:pointer;
+}
+
+.mobile-menu{
+  display:none;
+}
+
+/* HERO */
+.hero{
+  min-height:calc(100vh - 84px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg, #08101f 0%, #0c1529 45%, #08111d 100%);
+  position:relative;
+  overflow:hidden;
+  margin-top:84px;
+}
+
+.hero::before{
+  content:'';
+  position:absolute;
+  width:520px;
+  height:520px;
+  background:radial-gradient(circle, rgba(56,189,248,0.26) 0%, transparent 65%);
+  top:-160px;
+  right:-120px;
+  border-radius:50%;
+  animation:float 9s ease-in-out infinite;
+  filter:blur(32px);
+}
+
+.hero::after{
+  content:'';
+  position:absolute;
+  width:620px;
+  height:620px;
+  background:radial-gradient(circle, rgba(14,165,233,0.16) 0%, transparent 72%);
+  bottom:-220px;
+  left:-130px;
+  border-radius:50%;
+  animation:float 12s ease-in-out infinite reverse;
+  filter:blur(36px);
+}
+
+.hero-content{
+  position:relative;
+  z-index:5;
+  max-width:1100px;
+  width:100%;
+  display:grid;
+  grid-template-columns:1.1fr 0.9fr;
+  gap:30px;
+  align-items:center;
+}
+
+.hero-copy h1{
+  font-size:64px;
+  line-height:1.02;
+  color:#f8fafc;
+  margin-bottom:20px;
+}
+
+.hero-copy h1 span{
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero-copy p{
+  font-size:19px;
+  max-width:680px;
+  color:#cbd5e1;
+  margin-bottom:32px;
+}
+
+.hero-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:18px;
+}
+
+.hero-buttons button{
+  padding:16px 42px;
+  border:none;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:700;
+  transition:.3s;
+}
+
+.hero-buttons button.primary{
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  color:#fff;
+  box-shadow:0 18px 40px rgba(56,189,248,0.24);
+}
+
+.hero-buttons button.secondary{
+  background:rgba(255,255,255,0.08);
+  color:#e2e8f0;
+  border:1px solid rgba(56,189,248,0.18);
+}
+
+.hero-buttons button:hover{
+  transform:translateY(-2px);
+}
+
+.hero-panel{
+  display:grid;
+  gap:20px;
+}
+
+.hero-panel .hero-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 18px;
+  border-radius:999px;
+  background:rgba(56,189,248,0.12);
+  border:1px solid rgba(56,189,248,0.16);
+  color:#38bdf8;
+  font-weight:700;
+  width:max-content;
+}
+
+.hero-panel .hero-info{
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(56,189,248,0.14);
+  border-radius:26px;
+  padding:30px;
+  display:grid;
+  gap:20px;
+}
+
+.hero-panel .hero-info h3{
+  font-size:22px;
+  color:#f8fafc;
+}
+
+.hero-panel .hero-info p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+.hero-carousel{
+  display:grid;
+  gap:16px;
+}
+
+.hero-slide-card{
+  padding:22px 24px;
+  border-radius:22px;
+  background:rgba(7,12,24,0.95);
+  border:1px solid rgba(56,189,248,0.12);
+  transition:.3s;
+}
+
+.hero-slide-card.active{
+  background:linear-gradient(135deg, rgba(56,189,248,0.14), rgba(14,165,233,0.08));
+}
+
+.hero-slide-card h3{
+  color:#38bdf8;
+  margin-bottom:10px;
+}
+
+.hero-slide-card p{
+  color:#cbd5e1;
+  line-height:1.7;
+}
+
+.hero-slide-card .slide-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:16px;
+}
+
+.hero-slide-card .slide-tags span{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-radius:999px;
+  background:rgba(56,189,248,0.1);
+  color:#38bdf8;
+  font-size:13px;
+}
+
+/* ABOUT */
+#about{
+  background:linear-gradient(to bottom, #0b1225, #111a33);
+}
+
+.about-copy{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+}
+
+.about-copy p{
+  font-size:18px;
+}
+
+/* SERVICES */
+#services{
+  background:linear-gradient(135deg, #0b1226, #0f172a);
+}
+
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:24px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.service-card{
+  background:linear-gradient(135deg, rgba(15,23,42,0.96), rgba(10,15,26,0.96));
+  border:1px solid rgba(56,189,248,0.14);
+  border-radius:24px;
+  padding:28px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  transition:.3s;
+}
+
+.service-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 24px 60px rgba(0,0,0,0.28);
+}
+
+.service-card-header{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+}
+
+.service-card-header h3{
+  font-size:22px;
+  color:#f8fafc;
+}
+
+.service-card-header p{
+  color:#94a3b8;
+  line-height:1.75;
+}
+
+.toggle-detail{
+  border:none;
+  background: rgba(34, 197, 94, 0.12);
+  color: #166534;
+  padding:8px 12px;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:700;
+  font-size:12px;
+}
+
+.service-details{
+  max-height:0;
+  overflow:hidden;
+  opacity:0;
+  transition:max-height .35s ease, opacity .35s ease;
+}
+
+.service-details.open{
+  opacity:1;
+  max-height:420px;
+}
+
+.service-details ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:grid;
+  gap:10px;
+}
+
+.service-details li{
+  color:#cbd5e1;
+  position:relative;
+  padding-left:18px;
+}
+
+.service-details li:before{
+  content:'•';
+  position:absolute;
+  left:0;
+  color:#38bdf8;
+}
+
+.service-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+}
+
+.service-actions a,
+.service-actions button{
+  border:none;
+  border-radius:999px;
+  padding:14px 24px;
+  font-weight:700;
+  cursor:pointer;
+  transition:.25s;
+}
+
+.service-actions a{
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  color:#fff;
+}
+
+.service-actions button{
+  background:rgba(255,255,255,0.08);
+  color:#e2e8f0;
+  border:1px solid rgba(56,189,248,0.14);
+}
+
+.service-actions a:hover,
+.service-actions button:hover{
+  transform:translateY(-2px);
+}
+
+/* PORTFOLIO */
+#portfolio{
+  background:linear-gradient(135deg, #101a33, #0d1324);
+}
+
+.projects-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:24px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.project{
+  background:linear-gradient(135deg, rgba(12,18,32,0.96), rgba(7,11,21,0.96));
+  border:1px solid rgba(56,189,248,0.14);
+  border-radius:24px;
+  overflow:hidden;
+  transition:.3s;
+}
+
+.project:hover{
+  transform:translateY(-8px);
+  box-shadow:0 24px 65px rgba(0,0,0,0.3);
+}
+
+.project-image{
+  width:100%;
+  height:250px;
+  background:linear-gradient(135deg, #1e293b, #0f3460);
+}
+
+.project-content{
+  padding:28px;
+}
+
+.project h3{
+  color:#38bdf8;
+  margin-bottom:14px;
+  font-size:22px;
+}
+
+.project p{
+  color:#cbd5e1;
+  line-height:1.75;
+  margin-bottom:22px;
+}
+
+.project a{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:#38bdf8;
+  font-weight:700;
+}
+
+.project a:hover{
+  color:#0ea5e9;
+}
+
+/* TECHNOLOGY */
+#technology{
+  background:linear-gradient(to bottom, #0a1221, #11182e);
+}
+
+.tech-reviews{
+  display:grid;
+  grid-template-columns:1.05fr 0.95fr;
+  gap:28px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.tech-card{
+  background:linear-gradient(135deg, rgba(11,16,31,0.96), rgba(15,23,42,0.96));
+  border:1px solid rgba(56,189,248,0.14);
+  border-radius:24px;
+  padding:32px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.tech-card h3{
+  color:#38bdf8;
+}
+
+.tech-card p{
+  color:#cbd5e1;
+}
+
+.tech-list{
+  display:grid;
+  gap:14px;
+}
+
+.tech-list span{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#cbd5e1;
+}
+
+.tech-list span i{
+  color:#38bdf8;
+  min-width:20px;
+}
+
+.review-slider{
+  background:linear-gradient(135deg, rgba(12,16,28,0.96), rgba(7,11,20,0.96));
+  border:1px solid rgba(56,189,248,0.14);
+  border-radius:28px;
+  padding:30px;
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+}
+
+.review{
+  display:none;
+  flex-direction:column;
+  gap:26px;
+  padding:26px;
+  border-radius:20px;
+  background:rgba(56,189,248,0.08);
+  border:1px solid rgba(56,189,248,0.16);
+  animation:fadeInScale .35s ease;
+}
+
+.review.active{
+  display:flex;
+}
+
+.review-text{
+  color:#e2e8f0;
+  font-size:17px;
+  line-height:1.85;
+}
+
+.review-author{
+  display:flex;
+  gap:18px;
+  align-items:center;
+  border-top:1px solid rgba(56,189,248,0.12);
+  padding-top:18px;
+}
+
+.review-avatar{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:800;
+  color:#fff;
+}
+
+.review-info h4{
+  color:#f8fafc;
+  margin-bottom:6px;
+}
+
+.review-info p{
+  color:#94a3b8;
+}
+
+.review-stars{
+  color:#fbbf24;
+  font-size:18px;
+}
+
+.review-nav{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.review-btn{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  border:1px solid rgba(56,189,248,0.18);
+  background:rgba(56,189,248,0.08);
+  color:#38bdf8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+
+.review-btn:hover{
+  transform:scale(1.05);
+}
+
+.review-dots{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+}
+
+.dot{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:rgba(56,189,248,0.24);
+  cursor:pointer;
+  transition:.25s;
+}
+
+.dot.active{
+  width:30px;
+  border-radius:999px;
+  background:#38bdf8;
+}
+
+@keyframes fadeInScale{
+  from{opacity:0;transform:scale(0.96);}
+  to{opacity:1;transform:scale(1);}
+}
+
+/* FAQ */
+#faq{
+  background:linear-gradient(to bottom, #0a1220, #10182b);
+}
+
+.faq-grid{
+  display:grid;
+  gap:16px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.faq-item{
+  border-radius:22px;
+  overflow:hidden;
+  border:1px solid rgba(56,189,248,0.12);
+  background:rgba(11,16,30,0.96);
+}
+
+.faq-question{
+  width:100%;
+  padding:22px 24px;
+  border:none;
+  background:transparent;
+  color:#f8fafc;
+  font-size:17px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  cursor:pointer;
+}
+
+.faq-question i{
+  color:#38bdf8;
+}
+
+.faq-answer{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .35s ease, padding .35s ease;
+  padding:0 24px;
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+.faq-answer.open{
+  max-height:320px;
+  padding:16px 24px 24px;
+}
+
+/* CAREER */
+#career{
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 50%, #fcd34d 100%);
+}
+
+#career h2{
+  background: linear-gradient(135deg, #92400e, #b45309);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.career-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.career-copy{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.career-copy p{
+  color: #374151;
+}
+
+.career-form{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  background: rgba(255, 255, 255, 0.9);
+  border:1px solid rgba(245, 158, 11, 0.2);
+  border-radius:24px;
+  padding:34px;
+}
+
+.career-form label{
+  color: #92400e;
+  font-weight:700;
+  font-size:14px;
+}
+
+.career-form input,
+.career-form select,
+.career-form textarea{
+  padding:14px 16px;
+  border-radius:14px;
+  border:1px solid rgba(245, 158, 11, 0.2);
+  background: rgba(255, 255, 255, 0.9);
+  color: #374151;
+  font-size:14px;
+}
+
+.career-form .submit-btn{
+  padding:16px 24px;
+  border:none;
+  border-radius:14px;
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.career-form .submit-btn:hover{
+  transform:translateY(-2px);
+}
+
+.form-status{
+  color: #374151;
+  font-size:14px;
+}
+
+.career-help{
+  background: rgba(255, 255, 255, 0.1);
+  border:1px solid rgba(245, 158, 11, 0.12);
+  border-radius:22px;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.career-help a{
+  color: #92400e;
+  font-weight:700;
+}
+
+/* CONTACT */
+#contact{
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 50%, #a7f3d0 100%);
+}
+
+#contact h2{
+  background: linear-gradient(135deg, #166534, #15803d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.contact-card,
+.contact-form{
+  background: rgba(255, 255, 255, 0.9);
+  border:1px solid rgba(34, 197, 94, 0.2);
+  border-radius:24px;
+  padding:34px;
+}
+
+.contact-card h3{
+  color: #166534;
+}
+
+.contact-card p{
+  color: #374151;
+}
+
+.contact-item a{
+  color: #166534;
+}
+  color:#38bdf8;
+  margin-bottom:18px;
+}
+
+.contact-card p,
+.contact-card .contact-item{
+  color:#cbd5e1;
+}
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:16px;
+}
+
+.contact-item i{
+  color:#38bdf8;
+  min-width:22px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:14px 16px;
+  border-radius:14px;
+  border:1px solid rgba(56,189,248,0.16);
+  background:rgba(7,12,24,0.92);
+  color:#fff;
+}
+
+.contact-form button{
+  padding:16px 24px;
+  border:none;
+  border-radius:14px;
+  background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:left;
+  padding:60px 5%;
+  background:linear-gradient(135deg, rgba(8,12,23,0.98), rgba(14,23,44,0.98));
+  border-top:1px solid rgba(56,189,248,0.12);
+  color:#94a3b8;
+}
+
+.footer-content{
+  max-width:1200px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:30px;
+  margin-bottom:35px;
+}
+
+.footer-section h4{
+  color:#38bdf8;
+  margin-bottom:16px;
+}
+
+.footer-section a{
+  display:block;
+  color:#94a3b8;
+  margin-bottom:10px;
+}
+
+.social-links{
+  display:flex;
+  gap:12px;
+}
+
+.social-links a{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:rgba(56,189,248,0.1);
+  border:1px solid rgba(56,189,248,0.14);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:.25s;
+}
+
+.social-links a:hover{
+  transform:translateY(-2px);
+  background:rgba(56,189,248,0.18);
+}
+
+.footer-bottom{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+  border-top:1px solid rgba(56,189,248,0.12);
+  padding-top:20px;
+  font-size:13px;
+}
+
+.footer-bottom p{
+  margin:0;
+}
+
+.whatsapp{
+  position:fixed;
+  bottom:26px;
+  right:26px;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#25d366,#20ba5d);
+  color:#fff;
+  font-size:26px;
+  box-shadow:0 18px 40px rgba(37,211,102,0.28);
+  z-index:999;
+}
+
+.whatsapp:hover{
+  transform:translateY(-3px);
+}
+
+@media (max-width:1100px){
+  .tech-reviews,
+  .contact-section,
+  .career-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:900px){
+  section{padding:70px 4%;}
+  nav{padding:18px 4%;}
+  .hero{
+    min-height:auto;
+    padding:120px 0 80px;
+    margin-top:0;
+  }
+  .hero-content{
+    grid-template-columns:1fr;
+  }
+  .hero h1{font-size:48px;}
+  .hero p{font-size:17px;}
+  .hero-copy,
+  .hero-panel{
+    width:100%;
+  }
+  .hero-shapes{display:none;}
+}
+
+@media (max-width:768px){
+  .nav-links{display:none;}
+  .menu-toggle{display:block;}
+  .mobile-menu{
+    display:flex;
+    position:fixed;
+    inset:0;
+    background:rgba(6, 10, 22, 0.98);
+    padding:120px 5% 40px;
+    flex-direction:column;
+    gap:20px;
+    transform:translateX(100%);
+    transition:transform .3s ease;
+    z-index:1100;
+    overflow-y:auto;
+  }
+  .mobile-menu.open{transform:translateX(0);}
+  .mobile-menu li{list-style:none;}
+  .mobile-menu li a{
+    display:block;
+    color:#e2e8f0;
+    font-size:20px;
+    padding:14px 0;
+    border-bottom:1px solid rgba(56,189,248,0.12);
+  }
+  .mobile-menu-close{
+    position:absolute;
+    top:24px;
+    right:24px;
+    border:none;
+    background:transparent;
+    color:#e2e8f0;
+    font-size:24px;
+    cursor:pointer;
+  }
+  h2{font-size:34px;}
+  section{padding:55px 4%;}
+}
+
+@media (max-width:600px){
+  .hero-copy h1{font-size:38px;}
+  .hero-buttons button{width:100%;}
+  .service-card,
+  .project,
+  .tech-card,
+  .review-slider,
+  .faq-item,
+  .career-form,
+  .contact-form,
+  .contact-card{
+    padding:22px;
+  }
+  .service-card-header{flex-direction:column; align-items:flex-start;}
+  .service-actions{flex-direction:column;}
+}
+
+@media (max-width:420px){
+  section{padding:40px 4%;}
+  body{font-size:14px;}
+  .navbar-logo{width:40px;height:40px;font-size:18px;}
+  .nav-brand h1{font-size:20px;}
+  .nav-brand p{font-size:12px;}
+}
+
+@media (max-width:350px){
+  nav{padding:14px 3%;}
+  section{padding:30px 3%;}
+}
+
+</style>
 </head>
 
 <body>
 
 <!-- NAVBAR -->
 <nav>
-  <h1><img src="./assets/logo.png" alt="Logo" class="navbar-logo"> Bazil Jani</h1>
-  <ul>
+  <div class="nav-brand">
+    <img src="assets/logo2.png" alt="Sironex Logo" class="navbar-logo">
+    <div>
+      <p>Powered by</p>
+      <h1>Sironex</h1>
+    </div>
+  </div>
+
+  <button class="menu-toggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+
+  <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#technology">Technology</a></li>
     <li><a href="#career">Career</a></li>
-    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#faq">FAQ</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu-close" type="button" aria-label="Close menu"><i class="fas fa-times"></i></button>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#career">Career</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -898,34 +2030,178 @@ footer{
     <div class="shape shape-3"></div>
   </div>
   <div class="hero-content">
-    <h1>Modern Websites That <span>Grow Your Business</span></h1>
-    <p>Frontend • Backend • WordPress • Digital Marketing</p>
-    <div class="hero-buttons">
-      <button onclick="scrollToSection('contact')">Get Started</button>
-      <button class="secondary" onclick="scrollToSection('portfolio')">View Portfolio</button>
+    <div class="hero-copy">
+      <span class="hero-badge"><i class="fas fa-rocket"></i> Premium digital experiences</span>
+      <h1>Build a modern online presence with <span>Sironex</span></h1>
+      <p>We deliver professional websites, e-commerce, and growth-focused digital solutions with polished design, fast performance, and mobile-first responsiveness.</p>
+      <div class="hero-buttons">
+        <button class="primary" onclick="scrollToSection('contact')">Book a Call</button>
+        <button class="secondary" onclick="scrollToSection('portfolio')">See Work</button>
+      </div>
+    </div>
+    <div class="hero-panel">
+      <div class="hero-info">
+        <h3>Welcome to Sironex</h3>
+        <p>We help companies present their brand clearly, convert visitors into customers, and launch scalable digital products without unnecessary complexity.</p>
+      </div>
+      <div class="hero-carousel" id="heroCarousel">
+        <div class="hero-slide-card active">
+          <h3>Elegant website design</h3>
+          <p>Professional visuals, clear messaging, and conversion-focused layouts to make every visit count.</p>
+          <div class="slide-tags"><span><i class="fas fa-check"></i> Brand-aligned</span><span><i class="fas fa-check"></i> Fast loading</span></div>
+        </div>
+        <div class="hero-slide-card">
+          <h3>Smart e-commerce launches</h3>
+          <p>Reliable online stores built to sell more with secure checkout, inventory flow, and product storytelling.</p>
+          <div class="slide-tags"><span><i class="fas fa-check"></i> Payment-ready</span><span><i class="fas fa-check"></i> Sales analytics</span></div>
+        </div>
+        <div class="hero-slide-card">
+          <h3>Advanced web technology</h3>
+          <p>Modern backend setups, automation, and secure hosting for sites and applications that scale.</p>
+          <div class="slide-tags"><span><i class="fas fa-check"></i> API friendly</span><span><i class="fas fa-check"></i> Cloud optimized</span></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ABOUT -->
 <section id="about">
-  <h2>About Me</h2>
-  <p style="text-align:center; max-width:800px; margin:auto;">
-    I'm Bazil Jani, a Full Stack Developer specializing in modern, scalable and high-performing digital solutions. 
-    I help businesses build strong online presence with clean UI and optimized backend systems.
-  </p>
+  <h2>About Sironex</h2>
+  <div class="about-copy">
+    <p>Sironex is a digital studio that builds premium websites, streamlined online stores, and secure backend systems for ambitious brands. We combine modern design, strong technical foundations, and a focus on results.</p>
+    <p>Whether you need a polished portfolio, a responsive business site, or a scalable product platform, we create digital solutions that look professional and work reliably across desktop and mobile.</p>
+  </div>
 </section>
 
 <!-- SERVICES -->
 <section id="services">
   <h2>Our Services</h2>
   <div class="services-grid">
-    <div class="card"><i class="fas fa-code"></i> Custom Website Development</div>
-    <div class="card"><i class="fas fa-wordpress"></i> WordPress Development</div>
-    <div class="card"><i class="fas fa-shopping-cart"></i> E-commerce Solutions</div>
-    <div class="card"><i class="fas fa-server"></i> Backend Development</div>
-    <div class="card"><i class="fas fa-tools"></i> Maintenance & Support</div>
-    <div class="card"><i class="fas fa-bullhorn"></i> Digital Marketing</div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>Custom Website Development</h3>
+          <p>Tailored websites designed to reflect your brand, convert visitors, and perform well on search engines.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Landing pages from ₹10,000</li>
+          <li>Business sites from ₹20,000</li>
+          <li>Custom UI and animations</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>WordPress Development</h3>
+          <p>Flexible WordPress builds with easy editing, fast loading, and secure plugin setup.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Theme setup from ₹8,000</li>
+          <li>Customization from ₹12,000</li>
+          <li>SEO-friendly pages</li>
+          <li>Speed and security optimization</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>E-commerce Solutions</h3>
+          <p>Online stores built for sales, inventory control, and smooth customer checkout flow.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Store setup from ₹15,000</li>
+          <li>Product pages from ₹10,000</li>
+          <li>Payment gateway integration</li>
+          <li>Cart and order management</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>Backend & API Development</h3>
+          <p>Secure server setups, API integration, and automation systems that keep your product stable and extendable.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Custom APIs from ₹20,000</li>
+          <li>Database design from ₹15,000</li>
+          <li>Authentication and user systems</li>
+          <li>Cloud-ready deployment</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>Maintenance & Support</h3>
+          <p>Reliable support plans for website updates, security checks, and ongoing improvements.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Monthly support from ₹5,000</li>
+          <li>Weekly updates and backups</li>
+          <li>Security monitoring</li>
+          <li>Performance tuning</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-card-header">
+        <div>
+          <h3>Digital Marketing</h3>
+          <p>Marketing support that improves online visibility and helps your business attract more qualified customers.</p>
+        </div>
+        <button class="toggle-detail">View Price</button>
+      </div>
+      <div class="service-details">
+        <ul>
+          <li>Social media campaigns from ₹7,000</li>
+          <li>Landing page funnels from ₹10,000</li>
+          <li>Performance tracking</li>
+        </ul>
+        <div class="service-actions">
+          <a href="tel:+919791789497">Call Now</a>
+          <button onclick="scrollToSection('contact')">Register</button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -934,104 +2210,136 @@ footer{
   <h2>Featured Projects</h2>
   <div class="projects-grid">
     <div class="project">
-      <div class="project-image" style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+      <div class="project-image" style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);"></div>
       <div class="project-content">
         <h3>MJS Engineering Works</h3>
-        <p>Professional engineering solutions platform showcasing technical expertise and project portfolio. Built with modern technologies for optimal performance.</p>
+        <p>A professional engineering portal that showcases technical expertise and accelerates client trust.</p>
         <a href="https://mjsengineeringworks.vercel.app/" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     <div class="project">
-      <div class="project-image" style="background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+      <div class="project-image" style="background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);"></div>
       <div class="project-content">
         <h3>Neuravision</h3>
-        <p>AI-powered vision analysis platform. Features real-time image processing, machine learning models, and an intuitive dashboard for data insights.</p>
+        <p>An AI-enabled vision analysis platform with real-time insights and intelligent reporting.</p>
         <a href="https://neuravision-xi.vercel.app/" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     <div class="project">
-      <div class="project-image" style="background:linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+      <div class="project-image" style="background:linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);"></div>
       <div class="project-content">
         <h3>NR Photography</h3>
-        <p>Professional photography portfolio website with stunning galleries, lightbox functionality, and booking system for clients to reserve photography services.</p>
+        <p>A portfolio website with polished galleries and easy booking features for photography clients.</p>
         <a href="https://nr-photography-01.vercel.app/" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
     <div class="project">
-      <div class="project-image" style="background:linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+      <div class="project-image" style="background:linear-gradient(135deg,#43e97b 0%,#38f9d7 100%);"></div>
       <div class="project-content">
         <h3>Radhika Rajpurohit</h3>
-        <p>Personal portfolio website showcasing professional achievements, skills, and projects with a clean, modern design and excellent user interface.</p>
+        <p>A clean personal brand website that highlights professional achievements with elegant, modern styling.</p>
         <a href="https://radhika-rajpurohit.vercel.app/" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-image" style="background:linear-gradient(135deg,#38bdf8 0%,#0ea5e9 100%);"></div>
+      <div class="project-content">
+        <h3>Sironex Business Suite</h3>
+        <p>A corporate landing page package built for high-conversion and professional branding.</p>
+        <a href="#contact">Inquire <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-image" style="background:linear-gradient(135deg,#facc15 0%,#f97316 100%);"></div>
+      <div class="project-content">
+        <h3>Aura Analytics</h3>
+        <p>An analytics dashboard concept with data-driven visuals and clean interfaces for fast decision-making.</p>
+        <a href="#contact">Discuss <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- REVIEWS -->
-<section id="reviews">
-  <h2>Client Testimonials</h2>
-  <div class="review-slider">
-    <div class="reviews-container">
+<!-- TECHNOLOGY -->
+<section id="technology">
+  <h2>Advanced Technology & Client Trust</h2>
+  <div class="tech-reviews">
+    <div class="tech-card">
+      <h3>Built on modern tools</h3>
+      <p>Our work uses current best practices so your website stays fast, secure, and simple to update long after launch.</p>
+      <div class="tech-list">
+        <span><i class="fas fa-laptop-code"></i> React / Next.js</span>
+        <span><i class="fas fa-database"></i> Node.js / Express</span>
+        <span><i class="fas fa-cloud"></i> Cloud hosting & automation</span>
+        <span><i class="fas fa-lock"></i> Secure architecture</span>
+        <span><i class="fas fa-mobile-alt"></i> Mobile-first design</span>
+      </div>
+    </div>
+    <div class="review-slider">
       <div class="review active">
         <div class="review-stars">⭐⭐⭐⭐⭐</div>
-        <div class="review-text">"Bazil delivered an exceptional engineering portal that exceeded our expectations. The platform is intuitive, fast, and has significantly improved our project management workflow. Highly professional work!"</div>
+        <div class="review-text">"Sironex created a sleek enterprise site faster than expected. The responsive design and page speed are excellent, and our users love the polished finish."</div>
         <div class="review-author">
-          <div class="review-avatar">MJS</div>
+          <div class="review-avatar">SK</div>
           <div class="review-info">
-            <h4>MJS Engineering Works</h4>
-            <p>Founder & CEO</p>
+            <h4>Startup Kit</h4>
+            <p>Founder</p>
           </div>
         </div>
       </div>
-      
       <div class="review">
         <div class="review-stars">⭐⭐⭐⭐⭐</div>
-        <div class="review-text">"The AI vision platform Bazil built is absolutely incredible. The real-time processing capabilities and machine learning integration are seamless. This has revolutionized our data analysis process. Amazing work!"</div>
+        <div class="review-text">"Our new Shopify-like solution runs smoothly and looks fantastic. Sironex handled the confusing parts with clarity and delivered excellent support."</div>
         <div class="review-author">
-          <div class="review-avatar">NV</div>
+          <div class="review-avatar">EC</div>
           <div class="review-info">
-            <h4>Neuravision Team</h4>
-            <p>Product Manager</p>
+            <h4>eCommerce Co.</h4>
+            <p>Marketing Lead</p>
           </div>
         </div>
       </div>
-      
       <div class="review">
         <div class="review-stars">⭐⭐⭐⭐⭐</div>
-        <div class="review-text">"Bazil's photography portfolio website is stunning! The gallery functionality and booking system are perfect. My clients love the sleek design and smooth user experience. Couldn't ask for better!"</div>
+        <div class="review-text">"Their team understood our process immediately and built a backend system that saved us time every day. Great communication, clean code, and practical delivery."</div>
         <div class="review-author">
-          <div class="review-avatar">NR</div>
+          <div class="review-avatar">TR</div>
           <div class="review-info">
-            <h4>NR Photography Studio</h4>
-            <p>Owner</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="review">
-        <div class="review-stars">⭐⭐⭐⭐⭐</div>
-        <div class="review-text">"My personal portfolio website looks absolutely professional! Bazil understood my vision perfectly and created something that truly represents my brand. The design is modern, clean, and gets great feedback from clients."</div>
-        <div class="review-author">
-          <div class="review-avatar">RR</div>
-          <div class="review-info">
-            <h4>Radhika Rajpurohit</h4>
-            <p>Professional</p>
+            <h4>TechRise</h4>
+            <p>Operations Head</p>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="review-nav">
-      <button class="review-btn" onclick="prevReview()"><i class="fas fa-chevron-left"></i></button>
-      <button class="review-btn" onclick="nextReview()"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <button class="faq-question">How quickly can you launch a website? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer">
+        <p>Most basic websites can launch within 2-3 weeks. Custom solutions depend on scope, but we always define timelines before work begins.</p>
+      </div>
     </div>
-    
-    <div class="review-dots">
-      <span class="dot active" onclick="goToReview(0)"></span>
-      <span class="dot" onclick="goToReview(1)"></span>
-      <span class="dot" onclick="goToReview(2)"></span>
-      <span class="dot" onclick="goToReview(3)"></span>
+    <div class="faq-item">
+      <button class="faq-question">Can I update the website myself later? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer">
+        <p>Yes. We deliver easy-to-manage pages and admin access so your team can make updates without technical help.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do you provide support after launch? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer">
+        <p>Absolutely. We offer maintenance plans and support options to keep your site secure, up-to-date, and running fast.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How do I submit my CV if upload fails? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer">
+        <p>If the upload does not work, email your resume directly to <a href="mailto:erbazil1995@gmail.com">erbazil1995@gmail.com</a> or send it via WhatsApp using the green button.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1039,42 +2347,75 @@ footer{
 <!-- CAREER -->
 <section id="career">
   <h2>Join My Team</h2>
-  <p style="text-align:center; max-width:800px; margin:auto; margin-bottom:40px;">
-    We're looking for talented developers, designers, and digital enthusiasts to join our growing team. 
-    Submit your resume and we'll review it shortly.
-  </p>
-  <form class="career-form" id="resumeForm">
-    <div class="form-group">
-      <input type="text" name="name" placeholder="Your Full Name" required>
+  <div class="career-grid">
+    <div class="career-copy">
+      <p>We're looking for talented developers, designers, and digital talent who want to work on modern web projects. Send your resume and let’s explore how we can build together.</p>
+      <div class="career-help">
+        <p>If upload isn't working, send your CV by email or WhatsApp instead for the fastest response.</p>
+        <a href="mailto:erbazil1995@gmail.com">Email: erbazil1995@gmail.com</a>
+        <a href="https://wa.me/919791789497" target="_blank"><i class="fab fa-whatsapp"></i> Send CV via WhatsApp</a>
+      </div>
     </div>
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Your Email" required>
-    </div>
-    <div class="form-group">
-      <input type="tel" name="phone" placeholder="Mobile Number" required>
-    </div>
-    <div class="form-group">
-      <input type="text" name="position" placeholder="Position Applied For" required>
-    </div>
-    <div class="form-group">
-      <label for="resume"><i class="fas fa-file-pdf"></i> Upload Resume (PDF)</label>
-      <input type="file" id="resume" name="resume" accept=".pdf,application/pdf" required>
-    </div>
-    <button type="submit" class="submit-btn">Submit Resume</button>
-  </form>
-  <p style="text-align:center; margin-top:25px; font-size:14px;" id="formStatus"></p>
+    <form class="career-form" id="resumeForm" action="https://formsubmit.co/erbazil1995@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_subject" value="New resume submission from Sironex website">
+      <input type="hidden" name="_captcha" value="false">
+      <div class="form-group">
+        <label for="name">Your Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Mobile Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+      </div>
+      <div class="form-group">
+        <label for="position">Position Applied For</label>
+        <select id="position" name="position" required>
+          <option value="">Select a Position</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Frontend Developer">Frontend Developer</option>
+          <option value="Backend Developer">Backend Developer</option>
+          <option value="Full Stack Developer">Full Stack Developer</option>
+          <option value="UI/UX Designer">UI/UX Designer</option>
+          <option value="Digital Marketing Specialist">Digital Marketing Specialist</option>
+          <option value="Project Manager">Project Manager</option>
+          <option value="Intern">Intern</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="resume"><i class="fas fa-file-pdf"></i> Upload Resume (PDF)</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,application/pdf" required>
+      </div>
+      <button type="submit" class="submit-btn">Submit Resume</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
   <h2>Get In Touch</h2>
-  <form class="contact-form" action="https://formsubmit.co/erbazil1995@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Full Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="tel" name="phone" placeholder="Your Phone Number" required>
-    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-    <button type="submit">Send Message</button>
-  </form>
+  <div class="contact-section">
+    <div class="contact-card">
+      <h3>Contact Details</h3>
+      <p>For bookings, inquiries, or service requests, use the form or reach out directly via WhatsApp and email.</p>
+      <div class="contact-item"><i class="fas fa-phone"></i><span><a href="tel:+919791789497">+91 9791789497</a></span></div>
+      <div class="contact-item"><i class="fas fa-envelope"></i><span><a href="mailto:erbazil1995@gmail.com">erbazil1995@gmail.com</a></span></div>
+      <div class="contact-item"><i class="fab fa-whatsapp"></i><span><a href="https://wa.me/919791789497" target="_blank">Chat on WhatsApp</a></span></div>
+      <p>We reply quickly to WhatsApp messages and email requests. Share your project brief and preferred deadline.</p>
+    </div>
+    <form class="contact-form" action="https://formsubmit.co/erbazil1995@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number" required>
+      <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
 </section>
 
 <footer>
@@ -1126,121 +2467,138 @@ footer{
   </div>
   
   <div class="footer-bottom">
-    <p>&copy; 2026 Bazil Jani | Digital Solutions. All Rights Reserved.</p>
-    <p>Designed & Developed with <i class="fas fa-heart" style="color:#ef4444;"></i> by Bazil Jani</p>
+    <p>&copy; 2026 Sironex. All Rights Reserved.</p>
+    <p>Designed & Developed with <i class="fas fa-heart" style="color:#ef4444;"></i> by Sironex</p>
   </div>
 </footer>
 
 <a href="https://wa.me/919791789497" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
 
 <script>
+const mobileMenu = document.getElementById('mobileMenu');
+const menuToggle = document.querySelector('.menu-toggle');
+const mobileClose = document.querySelector('.mobile-menu-close');
 
-/* Smooth scroll */
-function scrollToSection(id){
-  document.getElementById(id).scrollIntoView({behavior:'smooth'});
-}
-
-/* Review Slider */
-let reviews=document.querySelectorAll('.review');
-let index=0;
-
-function updateReviews(){
-  reviews.forEach(review => review.classList.remove('active'));
-  document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
-  
-  reviews[index].classList.add('active');
-  document.querySelectorAll('.dot')[index].classList.add('active');
-}
-
-function nextReview(){
-  index = (index + 1) % reviews.length;
-  updateReviews();
-}
-
-function prevReview(){
-  index = (index - 1 + reviews.length) % reviews.length;
-  updateReviews();
-}
-
-function goToReview(i){
-  index = i;
-  updateReviews();
-}
-
-// Auto rotate reviews every 5 seconds
-setInterval(() => {
-  nextReview();
-}, 5000);
-
-/* Resume Upload Form */
-document.getElementById('resumeForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  
-  const formInputs = e.target.querySelectorAll('input, textarea');
-  const name = formInputs[0].value;
-  const email = formInputs[1].value;
-  const mobile = formInputs[2].value;
-  const position = formInputs[3].value;
-  const resumeFile = document.getElementById('resume').files[0];
-  
-  const statusDiv = document.getElementById('formStatus');
-  statusDiv.textContent = 'Processing your submission...';
-  statusDiv.style.color = '#38bdf8';
-  
-  // Validate file
-  if (!resumeFile) {
-    statusDiv.textContent = '✗ Please select a PDF file';
-    statusDiv.style.color = '#ef4444';
-    return;
-  }
-  
-  if (!resumeFile.name.endsWith('.pdf')) {
-    statusDiv.textContent = '✗ Please upload a PDF file only';
-    statusDiv.style.color = '#ef4444';
-    return;
-  }
-  
-  if (resumeFile.size > 5242880) { // 5MB limit
-    statusDiv.textContent = '✗ Resume file is too large (max 5MB)';
-    statusDiv.style.color = '#ef4444';
-    return;
-  }
-  
-  try {
-    const formData = new FormData();
-    formData.append('name', name);
-    formData.append('email', email);
-    formData.append('phone', mobile);
-    formData.append('position', position);
-    formData.append('_subject', `New Resume Submission - ${name} for ${position}`);
-    formData.append('_replyto', email);
-    formData.append('message', `Name: ${name}\nEmail: ${email}\nPhone: ${mobile}\nPosition: ${position}\n\nResume File: ${resumeFile.name}`);
-    
-    // Send to Formspree
-    const response = await fetch('https://formspree.io/f/xyzqabc', {
-      method: 'POST',
-      body: formData
-    });
-    
-    if (response.ok) {
-      statusDiv.innerHTML = '✓ Resume submitted successfully!<br><small>Check email: <strong>erbazil1995@gmail.com</strong></small><br><small>We will contact you at <strong>' + mobile + '</strong> soon.</small>';
-      statusDiv.style.color = '#22c55e';
-      e.target.reset();
-      setTimeout(() => {
-        statusDiv.textContent = '';
-      }, 8000);
-    } else {
-      throw new Error('Submission error');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    // Show manual submission info if automatic fails
-    statusDiv.innerHTML = '✓ Submission Recorded!<br><small>Email your resume to: <strong>erbazil1995@gmail.com</strong></small><br><small>Subject: "Resume for ' + position + '"<br>Phone: <strong>+91 9791789497</strong></small>';
-    statusDiv.style.color = '#22c55e';
-    e.target.reset();
-  }
+menuToggle?.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
 });
 
+mobileClose?.addEventListener('click', () => {
+  mobileMenu.classList.remove('open');
+});
+
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+  link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+});
+
+function scrollToSection(id) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+}
+
+const heroSlides = document.querySelectorAll('#heroCarousel .hero-slide-card');
+let heroIndex = 0;
+function showHeroSlide(i) {
+  heroSlides.forEach((slide, idx) => {
+    slide.classList.toggle('active', idx === i);
+  });
+}
+
+function nextHeroSlide() {
+  if (!heroSlides.length) return;
+  heroIndex = (heroIndex + 1) % heroSlides.length;
+  showHeroSlide(heroIndex);
+}
+
+if (heroSlides.length) {
+  showHeroSlide(heroIndex);
+  setInterval(nextHeroSlide, 5000);
+}
+
+document.querySelectorAll('.toggle-detail').forEach(button => {
+  button.addEventListener('click', () => {
+    const card = button.closest('.service-card');
+    const details = card?.querySelector('.service-details');
+    if (!details) return;
+    const isOpen = details.classList.toggle('open');
+    button.textContent = isOpen ? 'Hide Price' : 'View Price';
+  });
+});
+
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const answer = button.nextElementSibling;
+    if (!answer) return;
+    const isOpen = answer.classList.toggle('open');
+    const icon = button.querySelector('i');
+    icon?.classList.toggle('fa-rotate-180', isOpen);
+  });
+});
+
+let reviews = document.querySelectorAll('.review');
+let reviewIndex = 0;
+
+function updateReviews() {
+  reviews.forEach((review, idx) => {
+    review.classList.toggle('active', idx === reviewIndex);
+  });
+  document.querySelectorAll('.dot').forEach((dot, idx) => {
+    dot.classList.toggle('active', idx === reviewIndex);
+  });
+}
+
+function nextReview() {
+  reviewIndex = (reviewIndex + 1) % reviews.length;
+  updateReviews();
+}
+
+function prevReview() {
+  reviewIndex = (reviewIndex - 1 + reviews.length) % reviews.length;
+  updateReviews();
+}
+
+function goToReview(i) {
+  reviewIndex = i;
+  updateReviews();
+}
+
+if (reviews.length) {
+  updateReviews();
+  setInterval(nextReview, 5000);
+}
+
+const resumeForm = document.getElementById('resumeForm');
+resumeForm?.addEventListener('submit', (e) => {
+  const resumeFile = document.getElementById('resume')?.files?.[0];
+  const statusDiv = document.getElementById('formStatus');
+  if (!statusDiv) return;
+
+  statusDiv.textContent = 'Validating your submission...';
+  statusDiv.style.color = '#38bdf8';
+
+  if (!resumeFile) {
+    e.preventDefault();
+    statusDiv.textContent = '✗ Please upload a PDF resume to continue.';
+    statusDiv.style.color = '#ef4444';
+    return;
+  }
+
+  if (!resumeFile.name.toLowerCase().endsWith('.pdf')) {
+    e.preventDefault();
+    statusDiv.textContent = '✗ Please upload a PDF file only.';
+    statusDiv.style.color = '#ef4444';
+    return;
+  }
+
+  if (resumeFile.size > 5242880) {
+    e.preventDefault();
+    statusDiv.textContent = '✗ File size should be under 5MB.';
+    statusDiv.style.color = '#ef4444';
+    return;
+  }
+
+  statusDiv.innerHTML = '✓ Resume validated. Sending now...<br><small>If upload fails, email your CV to <strong>erbazil1995@gmail.com</strong> or send it via WhatsApp.</small>';
+  statusDiv.style.color = '#22c55e';
+});
 </script>
 
 </body>
